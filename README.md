@@ -1,20 +1,20 @@
 # Hanpoom Warehouse Management System Examination
 
-This Repository are for Hanpoom Warehouse Management System examination. feel free to explore how i do this examination.
+This Repository are for Hanpoom Warehouse Management System examination. feel free to explore the codebase of this project.
 
 Thanks :)
 
 ### List of needed dependencies to be installed in your machine for you to able to run this project properly.
 
-- Node.js LTS 20 - for running and building the project
-- Docker - for database, backend setup and containerization
-- docker compose - for automatic the local infra setup.
+- Node.js LTS 20 - Used in this project during development.
+- Docker - For database, backend setup and containerization
+- Docker Compose - For automation of local infra setup.
 
 ### Steps for running the project properly.
 
-1. make sure you have needed dependencies working correctly before you proceed and also follow 1 by 1 to prevent issues.
+1. Make sure you have needed dependencies working correctly before you proceed and also follow 1 by 1 to prevent issues.
 
-2. create .env file inside the project root directory and add this value inside and save it.
+2. Create .env file inside the project root directory and add this value inside and save it.
 
 ```
 NODE_ENV=development
