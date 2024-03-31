@@ -40,13 +40,15 @@ NODE_DOCKER_PORT=<your-docker/internal-backend-port>
 
 3. Change directory to your project root folder through terminal and execute this command `docker compose up -d` to build and containerized the mysql database server and backend application. make sure that this is the result.
 
-![alt text](image.png)
+![alt text](/screenshots/docker-copose-up.png)
 
 4. Restore mysql database backup inside of `<project-root-directory>/database/init.sql` using your preferred way like using GUI or CLI and make sure you use the database settings resided in your `.env` file for you be able to connect to mysql client through CLI or GUI
 
 5. Test the api by using curl or postman by hitting this endpoint `http://localhost:<NODE_LOCAL_PORT>/api/v1/picking-slips`.
 
----
+6. OPTIONAL - if you want to remove any containers volume or image created by docker compose command just execute this in your project root folder terminal `docker compose down --rmi all`. make sure the command output is like this.
+
+## ![alt text](/screenshots/docker-compose-down.png)
 
 <b>B. Running without docker or docker compose file</b>
 
